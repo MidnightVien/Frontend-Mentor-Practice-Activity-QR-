@@ -27,25 +27,26 @@
       }
 
       img {
-        width: 250px;
+        width: 300px;
         height: auto;
         border-radius: 3%;
         margin-bottom: 20px;
       }
 
       .title {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-weight: 700;
         font-family: "Outfit";
         text-align: justify;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         color: var(--Dark-blue);
       }
       .description {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 400;
         font-family: "Outfit";
         text-align: center;
+        margin-bottom: 20px;
         color: var(--Grayish-blue);
       }
 
@@ -55,19 +56,19 @@
         display: inline-block;
       }
 
-      .footer {
+      .foot {
         color: var(--Dark-blue);
       }
       
       @media only screen and (min-width: 1440px) {
         .division {
           width: 100%;
-          max-width: 250px;
+          max-width: 300px;
           background-color: var(--White);
           padding: 15px;
           border-radius: 5%;
           position: relative;
-          margin: 10% auto 5% auto; 
+          margin: 11% auto 5% auto; 
         }
         .attribution {
           bottom: 0;
@@ -116,17 +117,21 @@
     </style>
   </head> 
   <body>
-    <div class="division center">
-        <img src="images/image-qr-code.png" alt="QR Code">
-      <div>
-        <span class="title">Improve your front-end skills by building projects</span>
-        <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+    <section>
+      <div class="division">
+          <img src="images/image-qr-code.png" alt="QR Code">
+        <div>
+          <span class="title">Improve your front-end skills by building projects</span>
+          <p class="description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level </p>
+        </div>
       </div>
-    </div>
-    <div class="attribution">
+    </section>
+    <footer class="attribution">
       <p>
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><span class="footer"> Frontend Mentor</span></a>. Coded by <a href="https://www.frontendmentor.io/profile/MidnightVien"><span class="footer"> Midnight Dusk</span></a>.
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><span class="foot"> Frontend
+            Mentor</span></a>. Coded by <a href="https://www.frontendmentor.io/profile/MidnightVien"><span class="foot">
+            Midnight Dusk</span></a>.
       </p>
-    </div>
+    </footer>
   </body>
 </html>
