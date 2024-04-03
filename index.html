@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     
     <style>
+      * {
+        box-sizing: border-box;
+      }
       :root {
         --White: hsl(0, 0%, 100%);
         --Light-gray: hsl(212, 45%, 89%);
@@ -27,14 +30,16 @@
       }
 
       img {
-        width: 250px;
+        width: 100%;
+        max-width: 270px;
         height: auto;
         border-radius: 3%;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
+        box-sizing:border-box;
       }
 
       .title {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 700;
         font-family: "Outfit";
         text-align: justify;
@@ -61,7 +66,7 @@
       }
       
       @media only screen and (min-width: 1440px) {
-        .division , section {
+        .division {
           width: 100%;
           max-width: 300px;
           background-color: var(--White);
@@ -79,7 +84,7 @@
         }
       }
       @media only screen and (max-width: 1440px) {
-        .division , section {
+        .division {
           width: 100%;
           max-width: 300px;
           background-color: var(--White);
@@ -97,7 +102,7 @@
         }
       }
       @media only screen and (max-width: 375px) {
-        .division , section {
+        .division {
           width: 100%;
           max-width: 300px;
           background-color: var(--White);
